@@ -10,20 +10,20 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="Schere" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="150" Margin="130,379,0,0" Click="Schere_Click">
+        <Button x:Name="Schere" HorizontalAlignment="Left" Width="200" Margin="130,300,0,50" Click="Schere_Click">
             <Image Source="Schere.gif" Stretch="Fill"/>
         </Button>
-        <Button x:Name="Papier" HorizontalAlignment="Right" VerticalAlignment="Top" Width="200" Height="150" Margin="0,379,130,0" Click="Papier_Click">
+        <Button x:Name="Papier" HorizontalAlignment="Right" Width="200" Margin="0,300,130,50" Click="Papier_Click">
             <Image Source="Papier.jpg" Stretch="Fill"/>
         </Button>
-        <Button x:Name="Stein" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="150" Margin="0,379,0,0" Click="Stein_Click">
+        <Button x:Name="Stein" HorizontalAlignment="Center" Width="200" Margin="0,300,0,50" Click="Stein_Click">
             <Image Source="Stein.jpg" Stretch="Fill"/>
         </Button>
-        <Image x:Name="IMG_Player" HorizontalAlignment="Left" Height="147" Margin="273,62,0,0" VerticalAlignment="Top" Width="200" Stretch="Fill"/>
+        <Image x:Name="IMG_Player" HorizontalAlignment="Left" Height="200" Margin="273,62,0,0" VerticalAlignment="Top" Width="200" Stretch="Fill"/>
         <Label x:Name="LBL_Player" Content="Player" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="23,69,0,0" Background="#FF00FF8B" Height="46" Width="88" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Label x:Name="LBL_Computer" Content="Computer" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="940,69,0,0" Background="Red" Height="46" Width="132" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="White"/>
-        <Label x:Name="LBL_Teilung" Content=":" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="483,69,0,0" Height="147" Width="126" FontSize="72" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Image x:Name="IMG_Computer" HorizontalAlignment="Left" Height="147" Margin="609,62,0,0" VerticalAlignment="Top" Width="200" Stretch="Fill"/>
+        <Label x:Name="LBL_Teilung" Content=":" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="483,92,0,0" Height="185" Width="126" FontSize="72" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Image x:Name="IMG_Computer" HorizontalAlignment="Left" Height="200" Margin="609,62,0,0" VerticalAlignment="Top" Width="200" Stretch="Fill"/>
         <Label x:Name="LBL_Player_Score" HorizontalAlignment="Left" Height="71" Margin="23,145,0,0" VerticalAlignment="Top" Width="88" FontSize="48" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="0"/>
         <Label x:Name="LBL_Computer_Score" HorizontalAlignment="Left" Height="71" Margin="962,143,0,0" VerticalAlignment="Top" Width="88" FontSize="48" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="0"/>
         <Menu x:Name="Menu" Margin="1,1,1,485">
